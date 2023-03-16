@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+ln -sf PICO/{*.ml{,i},libmincaml.S} .
+cd test; ln -sf PICO/{,too}manyargs.ml .; cd ..
+cd shootout; ln -sf PICO/Makefile .; cd ..
+cd bytemark; ln -sf PICO/Makefile .; cd ..
+cd min-rt; ln -sf PICO/globals.s .; cd ..
